@@ -1,0 +1,27 @@
+root@raspberrypi:/# ros2 topic list
+/JoyState
+/battery
+/beep
+/cmd_vel
+/diagnostics
+/entropy
+/imu
+/imu/data
+/joint_states
+/joy
+/joy/set_feedback
+/map
+/map_metadata
+/move_base/cancel
+/odom
+/odom_raw
+/parameter_events
+/robot_description
+/rosout
+/scan
+/servo_s1
+/servo_s2
+/set_pose
+/tf
+/tf_static
+root@raspberrypi:/# 

@@ -1,0 +1,50 @@
+access control disabled, clients can connect from any host
+Successful
+MY_DOMAIN_ID: 20
+root@raspberrypi:/# ros2 launch yahboomcar_bringup yahboomcar_bringup_launch.py
+
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-17-12-14-40-876936-raspberrypi-288
+[INFO] [launch]: Default logging verbosity is set to INFO
+---------------------robot_type = x3---------------------
+[INFO] [complementary_filter_node-1]: process started with pid [290]
+[INFO] [ekf_node-2]: process started with pid [292]
+[INFO] [static_transform_publisher-3]: process started with pid [294]
+[INFO] [joint_state_publisher-4]: process started with pid [296]
+[INFO] [robot_state_publisher-5]: process started with pid [298]
+[INFO] [static_transform_publisher-6]: process started with pid [300]
+[static_transform_publisher-6] [WARN] [1773749681.371002611] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-3] [WARN] [1773749681.377985760] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-6] [INFO] [1773749681.483723130] [static_transform_publisher_0vdFwSoS63jLogVi]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.000000', '0.000000', '0.050000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-6] from 'base_footprint' to 'base_link'
+[static_transform_publisher-3] [INFO] [1773749681.483809241] [base_link_to_base_imu]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('-0.002999', '-0.003000', '0.031701')
+[static_transform_publisher-3] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-3] from 'base_link' to 'imu_frame'
+[robot_state_publisher-5] [WARN] [1773749681.534428334] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-5] [INFO] [1773749681.534702889] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-5] [INFO] [1773749681.534867278] [robot_state_publisher]: got segment imu_Link
+[robot_state_publisher-5] [INFO] [1773749681.534886593] [robot_state_publisher]: got segment jq1_Link
+[robot_state_publisher-5] [INFO] [1773749681.534897371] [robot_state_publisher]: got segment jq2_Link
+[robot_state_publisher-5] [INFO] [1773749681.534909945] [robot_state_publisher]: got segment radar_Link
+[robot_state_publisher-5] [INFO] [1773749681.534922019] [robot_state_publisher]: got segment yh_Link
+[robot_state_publisher-5] [INFO] [1773749681.534933334] [robot_state_publisher]: got segment yq_Link
+[robot_state_publisher-5] [INFO] [1773749681.534944611] [robot_state_publisher]: got segment zh_Link
+[robot_state_publisher-5] [INFO] [1773749681.534955222] [robot_state_publisher]: got segment zq_Link
+[complementary_filter_node-1] [INFO] [1773749681.706832945] [complementary_filter_gain_node]: Starting ComplementaryFilterROS
+[joint_state_publisher-4] [INFO] [1773749681.954298222] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+^C[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[static_transform_publisher-6] [INFO] [1773749686.910051941] [rclcpp]: signal_handler(signum=2)
+[static_transform_publisher-3] [INFO] [1773749686.910052164] [rclcpp]: signal_handler(signum=2)
+[ekf_node-2] [INFO] [1773749686.910109590] [rclcpp]: signal_handler(signum=2)
+[complementary_filter_node-1] [INFO] [1773749686.910139941] [rclcpp]: signal_handler(signum=2)
+[robot_state_publisher-5] [INFO] [1773749686.910219182] [rclcpp]: signal_handler(signum=2)
+[complementary_filter_node-1] [INFO] [1773749686.915986090] [complementary_filter_gain_node]: Destroying ComplementaryFilterROS
+[INFO] [static_transform_publisher-6]: process has finished cleanly [pid 300]
+[INFO] [complementary_filter_node-1]: process has finished cleanly [pid 290]
+[INFO] [static_transform_publisher-3]: process has finished cleanly [pid 294]
+[INFO] [robot_state_publisher-5]: process has finished cleanly [pid 298]
+[INFO] [ekf_node-2]: process has finished cleanly [pid 292]
+[INFO] [joint_state_publisher-4]: process has finished cleanly [pid 296]
+root@raspberrypi:/# 

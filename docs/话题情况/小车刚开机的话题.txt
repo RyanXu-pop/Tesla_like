@@ -1,0 +1,16 @@
+root@raspberrypi:/# ros2 topic list
+/JoyState
+/battery
+/beep
+/cmd_vel
+/imu
+/joy
+/joy/set_feedback
+/move_base/cancel
+/odom_raw
+/parameter_events
+/rosout
+/scan
+/servo_s1
+/servo_s2
+root@raspberrypi:/# 

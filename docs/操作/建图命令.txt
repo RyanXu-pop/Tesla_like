@@ -1,0 +1,19 @@
+# 终端1-开启底盘处理程序
+sh ros2_humble.sh
+ros2 launch yahboomcar_bringup yahboomcar_bringup_launch.py
+
+# 终端2-开启rviz
+docker ps -a
+docker exec -it <CONTAINER_ID> /bin/bash
+ros2 launch yahboomcar_nav display_launch.py
+
+# 终端3-开启gamapping建图程序
+docker ps -a
+docker exec -it <CONTAINER_ID> /bin/bash
+ros2 launch yahboomcar_nav map_gmapping_launch.py
+
+
+# 终端5-建图完成后保存地图
+docker ps -a
+docker exec -it <CONTAINER_ID> /bin/bash
+ros2 launch yahboomcar_nav save_map_launch.py

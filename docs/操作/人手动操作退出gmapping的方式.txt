@@ -1,0 +1,134 @@
+pi@raspberrypi:~ $ docker ps -a
+CONTAINER ID   IMAGE                                COMMAND                  CREATED          STATUS                        PORTS     NAMES
+4315ac9eb397   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   42 seconds ago   Up 41 seconds                           hopeful_feynman
+a586e5574d76   microros/micro-ros-agent:humble      "/bin/sh /micro-ros_â€¦"   42 seconds ago   Up 41 seconds                           keen_mirzakhani
+34b1727c4254   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   11 minutes ago   Exited (255) 43 seconds ago             gracious_tu
+3f1dbe6862e8   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   22 minutes ago   Exited (255) 11 minutes ago             xenodochial_haslett
+dfdb6526a33a   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   26 minutes ago   Exited (255) 11 minutes ago             xenodochial_cohen
+53aafc91134d   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   26 minutes ago   Exited (255) 26 minutes ago             affectionate_swanson
+c0c6d84d6dcb   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   27 minutes ago   Exited (255) 26 minutes ago             reverent_shockley
+6a8e1721de72   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   27 minutes ago   Exited (255) 26 minutes ago             cool_cohen
+3a1ccc01c7cf   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   30 minutes ago   Exited (255) 26 minutes ago             wonderful_herschel
+c8079203f336   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   31 minutes ago   Exited (255) 26 minutes ago             brave_archimedes
+5a3b792563f9   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   31 minutes ago   Exited (255) 26 minutes ago             great_maxwell
+d99914d28eca   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   32 minutes ago   Exited (255) 26 minutes ago             magical_meitner
+e4a335c31a72   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   35 minutes ago   Exited (255) 26 minutes ago             interesting_cerf
+e362fed7f9ac   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   36 minutes ago   Exited (255) 35 minutes ago             quirky_bose
+db7f16f6f82e   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   38 minutes ago   Exited (255) 35 minutes ago             recursing_matsumoto
+50fe8bf4e96b   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   40 minutes ago   Exited (255) 35 minutes ago             angry_varahamihira
+1d61f2e41d8d   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   15 hours ago     Exited (255) 35 minutes ago             funny_aryabhata
+5810599e38b8   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   16 hours ago     Exited (255) 15 hours ago               sad_banzai
+845c21620187   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   16 hours ago     Exited (255) 16 hours ago               suspicious_saha
+21b2d0572f4a   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   16 hours ago     Exited (255) 16 hours ago               gracious_turing
+c72393ac2cfa   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   16 hours ago     Exited (255) 16 hours ago               festive_taussig
+8b8f453d1ed2   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   16 hours ago     Exited (255) 16 hours ago               friendly_lederberg
+e92a579c10a3   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   16 hours ago     Exited (255) 16 hours ago               friendly_ganguly
+59e5598ea9bf   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   17 hours ago     Exited (255) 16 hours ago               competent_roentgen
+3b3d30b3a6ad   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   17 hours ago     Exited (255) 17 hours ago               practical_wing
+9e9f0eb9c65e   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   17 hours ago     Exited (255) 17 hours ago               optimistic_beaver
+eee0c20978fc   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   17 hours ago     Exited (255) 17 hours ago               clever_colden
+5891a5d93db1   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   17 hours ago     Created                                 dazzling_booth
+b7acffcd6d5d   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   18 hours ago     Exited (255) 17 hours ago               sharp_hamilton
+c6818c4bc253   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   18 hours ago     Exited (255) 18 hours ago               reverent_chebyshev
+db05bd1d52b8   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   18 hours ago     Exited (255) 18 hours ago               practical_mclean
+7a168fcf022b   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   18 hours ago     Exited (255) 18 hours ago               sweet_carver
+cf36f9a914de   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   18 hours ago     Exited (255) 18 hours ago               peaceful_cartwright
+36543277f82d   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   18 hours ago     Exited (255) 18 hours ago               wonderful_grothendieck
+09757eb6dbd1   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 hours ago     Exited (255) 18 hours ago               friendly_williams
+f74db4754045   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 hours ago     Exited (255) 19 hours ago               adoring_stonebraker
+f0daa3ea2712   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   20 hours ago     Exited (255) 19 hours ago               charming_morse
+3cc061757cd0   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   20 hours ago     Exited (255) 20 hours ago               trusting_boyd
+2cd62f0dc66d   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   20 hours ago     Exited (255) 20 hours ago               pedantic_matsumoto
+e7f7a0f3b807   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago    Exited (255) 20 hours ago               sharp_northcutt
+f6ddcfa3840b   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago    Exited (255) 19 months ago              compassionate_bardeen
+030e2f560b30   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago    Exited (255) 19 months ago              cranky_tu
+b9928487aa47   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago    Exited (255) 19 months ago              trusting_dubinsky
+208bda03c611   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago    Exited (255) 19 months ago              peaceful_leavitt
+4e440ef50e17   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago    Exited (0) 19 months ago                friendly_tesla
+ef0b33d0e9c8   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago    Exited (255) 19 months ago              competent_heisenberg
+dca04a75df2d   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago    Exited (0) 19 months ago                hardcore_goodall
+4b368aa9aa85   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago    Exited (0) 19 months ago                inspiring_lederberg
+7ec4f8da8250   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago    Exited (137) 19 months ago              stupefied_merkle
+91a713e9dbcd   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago    Exited (255) 19 months ago              objective_burnell
+ed7a5a4ace8d   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago    Exited (255) 19 months ago              interesting_borg
+ecb1334e2cb6   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago    Exited (255) 19 months ago              boring_ardinghelli
+bbe2dca11b0e   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago    Exited (255) 19 months ago              affectionate_shamir
+4495cae52c43   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago    Exited (255) 19 months ago              keen_hopper
+ec17320ad97b   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago    Exited (255) 19 months ago              recursing_lamport
+77f1e73132af   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago    Exited (137) 19 months ago              magical_easley
+67f07d1708ab   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago    Exited (255) 19 months ago              awesome_kilby
+d8590db05114   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago    Exited (255) 19 months ago              optimistic_meitner
+9dcd8f4617e3   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago    Exited (255) 19 months ago              nostalgic_mayer
+2db278be8d3d   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   23 months ago    Exited (137) 19 months ago              fervent_mestorf
+c47356e9711a   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   23 months ago    Exited (0) 23 months ago                ecstatic_bohr
+58ba67e067bc   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   23 months ago    Exited (137) 23 months ago              jolly_northcutt
+5377de988e28   yahboomtechnology/ros-humble:4.1.0   "/bin/bash /root/1.sh"   23 months ago    Exited (0) 23 months ago                jolly_banzai
+67a8b75d96d2   yahboomtechnology/ros-humble:4.1.0   "/bin/bash /root/1.sh"   2 years ago      Exited (0) 23 months ago                cool_franklin
+49b333d6bbde   yahboomtechnology/ros-humble:4.1.0   "/bin/bash /root/1.sh"   2 years ago      Exited (255) 2 years ago                zealous_fermi
+5c8e87d67b55   yahboomtechnology/ros-humble:4.1.0   "/bin/bash /root/1.sh"   2 years ago      Exited (255) 2 years ago                festive_cori
+pi@raspberrypi:~ $ docker exec -it 4315ac9eb397 /bin/bash
+MY_DOMAIN_ID: 20
+root@raspberrypi:/# ros2 launch yahboomcar_nav map_gmapping_launch.py
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-17-12-16-11-490975-raspberrypi-432
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [slam_gmapping-1]: process started with pid [433]
+[INFO] [static_transform_publisher-2]: process started with pid [435]
+[static_transform_publisher-2] [WARN] [1773749771.622709317] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-2] [INFO] [1773749771.737357854] [base_link_to_base_laser]: Spinning until stopped - publishing transform
+[static_transform_publisher-2] translation: ('-0.004641', '0.000000', '0.094079')
+[static_transform_publisher-2] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-2] from 'base_link' to 'laser_frame'
+[slam_gmapping-1] [INFO] [1773749771.864882150] [slam_gmapping]: Laser is mounted upwards.
+[slam_gmapping-1]  -maxUrange 7.99 -maxUrange 7.99 -sigma     0.05 -kernelSize 1 -lstep 0.05 -lobsGain 3 -astep 0.05
+[slam_gmapping-1]  -srr 0.1 -srt 0.2 -str 0.1 -stt 0.2
+[slam_gmapping-1]  -linearUpdate 1 -angularUpdate 0.5 -resampleThreshold 0.5
+[slam_gmapping-1]  -xmin -10 -xmax 10 -ymin -10 -ymax 10 -delta 0.05 -particles 30
+[slam_gmapping-1] [INFO] [1773749771.865556095] [slam_gmapping]: Initialization complete
+[slam_gmapping-1] Laser Pose= -0.0046412 0 0
+[slam_gmapping-1] update frame 0
+[slam_gmapping-1] update ld=0 ad=0
+[slam_gmapping-1] m_count 0
+[slam_gmapping-1] Registering First Scan
+[slam_gmapping-1] update frame 16
+[slam_gmapping-1] update ld=0 ad=0
+[slam_gmapping-1] m_count 1
+[slam_gmapping-1] Laser Pose= -0.0046412 0 0
+[slam_gmapping-1] Average Scan Matching Score=348.828
+[slam_gmapping-1] neff= 30
+[slam_gmapping-1] Registering Scans:Done
+[slam_gmapping-1] update frame 41
+[slam_gmapping-1] update ld=0 ad=0
+[slam_gmapping-1] m_count 2
+[slam_gmapping-1] Laser Pose= -0.0046412 0 0
+[slam_gmapping-1] Average Scan Matching Score=354.694
+[slam_gmapping-1] neff= 30
+[slam_gmapping-1] Registering Scans:Done
+[slam_gmapping-1] update frame 66
+[slam_gmapping-1] update ld=0 ad=0
+[slam_gmapping-1] m_count 3
+[slam_gmapping-1] Laser Pose= -0.0046412 0 0
+[slam_gmapping-1] Average Scan Matching Score=354.842
+[slam_gmapping-1] neff= 30
+[slam_gmapping-1] Registering Scans:Done
+[slam_gmapping-1] update frame 91
+[slam_gmapping-1] update ld=0 ad=0
+[slam_gmapping-1] m_count 4
+[slam_gmapping-1] Laser Pose= -0.0046412 0 0
+[slam_gmapping-1] Average Scan Matching Score=355.734
+[slam_gmapping-1] neff= 30
+[slam_gmapping-1] Registering Scans:Done
+[slam_gmapping-1] update frame 116
+[slam_gmapping-1] update ld=0 ad=0
+[slam_gmapping-1] m_count 5
+[slam_gmapping-1] Laser Pose= -0.0046412 0 0
+[slam_gmapping-1] Average Scan Matching Score=354.89
+[slam_gmapping-1] neff= 30
+[slam_gmapping-1] Registering Scans:Done
+^C[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[static_transform_publisher-2] [INFO] [1773749782.185816051] [rclcpp]: signal_handler(signum=2)
+[slam_gmapping-1] [INFO] [1773749782.185826329] [rclcpp]: signal_handler(signum=2)
+[slam_gmapping-1] virtual GMapping::GridSlamProcessor::~GridSlamProcessor(): Start
+[slam_gmapping-1] virtual GMapping::GridSlamProcessor::~GridSlamProcessor(): Deleting tree
+[INFO] [slam_gmapping-1]: process has finished cleanly [pid 433]
+[INFO] [static_transform_publisher-2]: process has finished cleanly [pid 435]
+root@raspberrypi:/# 

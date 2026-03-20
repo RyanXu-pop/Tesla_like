@@ -1,0 +1,352 @@
+pi@raspberrypi:~ $ docker ps -a
+CONTAINER ID   IMAGE                                COMMAND                  CREATED             STATUS                           PORTS     NAMES
+11086c7a4b48   microros/micro-ros-agent:humble      "/bin/sh /micro-ros_â€¦"   2 minutes ago       Up 2 minutes                               elastic_cray
+65b9d4a14d40   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   2 minutes ago       Up 2 minutes                               compassionate_lamport
+c5ab16eebd1e   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   10 minutes ago      Exited (255) 2 minutes ago                 nifty_ritchie
+4622644f5af5   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   13 minutes ago      Exited (255) 10 minutes ago                stupefied_greider
+4315ac9eb397   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   50 minutes ago      Exited (255) 13 minutes ago                hopeful_feynman
+34b1727c4254   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   About an hour ago   Exited (255) 50 minutes ago                gracious_tu
+3f1dbe6862e8   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   About an hour ago   Exited (255) About an hour ago             xenodochial_haslett
+dfdb6526a33a   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   About an hour ago   Exited (255) About an hour ago             xenodochial_cohen
+53aafc91134d   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   About an hour ago   Exited (255) About an hour ago             affectionate_swanson
+c0c6d84d6dcb   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   About an hour ago   Exited (255) About an hour ago             reverent_shockley
+6a8e1721de72   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   About an hour ago   Exited (255) About an hour ago             cool_cohen
+3a1ccc01c7cf   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   About an hour ago   Exited (255) About an hour ago             wonderful_herschel
+c8079203f336   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   About an hour ago   Exited (255) About an hour ago             brave_archimedes
+5a3b792563f9   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   About an hour ago   Exited (255) About an hour ago             great_maxwell
+d99914d28eca   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   About an hour ago   Exited (255) About an hour ago             magical_meitner
+e4a335c31a72   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   About an hour ago   Exited (255) About an hour ago             interesting_cerf
+e362fed7f9ac   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   About an hour ago   Exited (255) About an hour ago             quirky_bose
+db7f16f6f82e   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   About an hour ago   Exited (255) About an hour ago             recursing_matsumoto
+50fe8bf4e96b   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   2 hours ago         Exited (255) About an hour ago             angry_varahamihira
+1d61f2e41d8d   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   16 hours ago        Exited (255) About an hour ago             funny_aryabhata
+5810599e38b8   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   16 hours ago        Exited (255) 16 hours ago                  sad_banzai
+845c21620187   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   16 hours ago        Exited (255) 16 hours ago                  suspicious_saha
+21b2d0572f4a   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   17 hours ago        Exited (255) 16 hours ago                  gracious_turing
+c72393ac2cfa   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   17 hours ago        Exited (255) 17 hours ago                  festive_taussig
+8b8f453d1ed2   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   17 hours ago        Exited (255) 17 hours ago                  friendly_lederberg
+e92a579c10a3   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   17 hours ago        Exited (255) 17 hours ago                  friendly_ganguly
+59e5598ea9bf   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   17 hours ago        Exited (255) 17 hours ago                  competent_roentgen
+3b3d30b3a6ad   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   18 hours ago        Exited (255) 17 hours ago                  practical_wing
+9e9f0eb9c65e   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   18 hours ago        Exited (255) 18 hours ago                  optimistic_beaver
+eee0c20978fc   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   18 hours ago        Exited (255) 18 hours ago                  clever_colden
+5891a5d93db1   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   18 hours ago        Created                                    dazzling_booth
+b7acffcd6d5d   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   18 hours ago        Exited (255) 18 hours ago                  sharp_hamilton
+c6818c4bc253   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 hours ago        Exited (255) 18 hours ago                  reverent_chebyshev
+db05bd1d52b8   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 hours ago        Exited (255) 19 hours ago                  practical_mclean
+7a168fcf022b   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 hours ago        Exited (255) 19 hours ago                  sweet_carver
+cf36f9a914de   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 hours ago        Exited (255) 19 hours ago                  peaceful_cartwright
+36543277f82d   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 hours ago        Exited (255) 19 hours ago                  wonderful_grothendieck
+09757eb6dbd1   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   20 hours ago        Exited (255) 19 hours ago                  friendly_williams
+f74db4754045   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   20 hours ago        Exited (255) 20 hours ago                  adoring_stonebraker
+f0daa3ea2712   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   21 hours ago        Exited (255) 20 hours ago                  charming_morse
+3cc061757cd0   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   21 hours ago        Exited (255) 21 hours ago                  trusting_boyd
+2cd62f0dc66d   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   21 hours ago        Exited (255) 21 hours ago                  pedantic_matsumoto
+e7f7a0f3b807   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago       Exited (255) 21 hours ago                  sharp_northcutt
+f6ddcfa3840b   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago       Exited (255) 19 months ago                 compassionate_bardeen
+030e2f560b30   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago       Exited (255) 19 months ago                 cranky_tu
+b9928487aa47   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago       Exited (255) 19 months ago                 trusting_dubinsky
+208bda03c611   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago       Exited (255) 19 months ago                 peaceful_leavitt
+4e440ef50e17   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago       Exited (0) 19 months ago                   friendly_tesla
+ef0b33d0e9c8   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago       Exited (255) 19 months ago                 competent_heisenberg
+dca04a75df2d   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago       Exited (0) 19 months ago                   hardcore_goodall
+4b368aa9aa85   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago       Exited (0) 19 months ago                   inspiring_lederberg
+7ec4f8da8250   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago       Exited (137) 19 months ago                 stupefied_merkle
+91a713e9dbcd   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago       Exited (255) 19 months ago                 objective_burnell
+ed7a5a4ace8d   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago       Exited (255) 19 months ago                 interesting_borg
+ecb1334e2cb6   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago       Exited (255) 19 months ago                 boring_ardinghelli
+bbe2dca11b0e   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago       Exited (255) 19 months ago                 affectionate_shamir
+4495cae52c43   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago       Exited (255) 19 months ago                 keen_hopper
+ec17320ad97b   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago       Exited (255) 19 months ago                 recursing_lamport
+77f1e73132af   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago       Exited (137) 19 months ago                 magical_easley
+67f07d1708ab   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago       Exited (255) 19 months ago                 awesome_kilby
+d8590db05114   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago       Exited (255) 19 months ago                 optimistic_meitner
+9dcd8f4617e3   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   19 months ago       Exited (255) 19 months ago                 nostalgic_mayer
+2db278be8d3d   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   23 months ago       Exited (137) 19 months ago                 fervent_mestorf
+c47356e9711a   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   23 months ago       Exited (0) 23 months ago                   ecstatic_bohr
+58ba67e067bc   yahboomtechnology/ros-humble:4.1.2   "/bin/bash /root/1.sh"   23 months ago       Exited (137) 23 months ago                 jolly_northcutt
+5377de988e28   yahboomtechnology/ros-humble:4.1.0   "/bin/bash /root/1.sh"   23 months ago       Exited (0) 23 months ago                   jolly_banzai
+67a8b75d96d2   yahboomtechnology/ros-humble:4.1.0   "/bin/bash /root/1.sh"   2 years ago         Exited (0) 23 months ago                   cool_franklin
+49b333d6bbde   yahboomtechnology/ros-humble:4.1.0   "/bin/bash /root/1.sh"   2 years ago         Exited (255) 2 years ago                   zealous_fermi
+5c8e87d67b55   yahboomtechnology/ros-humble:4.1.0   "/bin/bash /root/1.sh"   2 years ago         Exited (255) 2 years ago                   festive_cori
+pi@raspberrypi:~ $ docker exec -it 65b9d4a14d40 /bin/bash
+MY_DOMAIN_ID: 20
+root@raspberrypi:/#     ros2 launch  yahboomcar_nav navigation_dwb_launch.py
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-17-13-07-38-627675-raspberrypi-360
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [component_container_isolated-1]: process started with pid [373]
+[INFO] [stop_car-2]: process started with pid [375]
+[INFO] [static_transform_publisher-3]: process started with pid [377]
+[static_transform_publisher-3] [WARN] [1773752860.337969151] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-3] [INFO] [1773752860.488872577] [base_link_to_base_laser]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('-0.004641', '0.000000', '0.094079')
+[static_transform_publisher-3] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-3] from 'base_link' to 'laser_frame'
+[component_container_isolated-1] [INFO] [1773752860.561134743] [nav2_container]: Load Library: /opt/ros/humble/lib/libmap_server_core.so
+[component_container_isolated-1] [INFO] [1773752860.769481447] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::CostmapFilterInfoServer>
+[component_container_isolated-1] [INFO] [1773752860.769576669] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::MapSaver>
+[component_container_isolated-1] [INFO] [1773752860.770641373] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::MapServer>
+[component_container_isolated-1] [INFO] [1773752860.770919651] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_map_server::MapServer>
+[component_container_isolated-1] [INFO] [1773752860.885063743] [map_server]: 
+[component_container_isolated-1] 	map_server lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-1] [INFO] [1773752860.885183299] [map_server]: Creating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/map_server' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1773752860.889440391] [nav2_container]: Load Library: /opt/ros/humble/lib/libcontroller_server_core.so
+[component_container_isolated-1] [INFO] [1773752860.957313391] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_controller::ControllerServer>
+[component_container_isolated-1] [INFO] [1773752860.957467614] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_controller::ControllerServer>
+[component_container_isolated-1] [INFO] [1773752861.034835891] [controller_server]: 
+[component_container_isolated-1] 	controller_server lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-1] [INFO] [1773752861.060319502] [controller_server]: Creating controller server
+[component_container_isolated-1] [INFO] [1773752861.145320650] [local_costmap.local_costmap]: 
+[component_container_isolated-1] 	local_costmap lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-1] [INFO] [1773752861.152610428] [local_costmap.local_costmap]: Creating Costmap
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/controller_server' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1773752861.166723984] [nav2_container]: Load Library: /opt/ros/humble/lib/libamcl_core.so
+[component_container_isolated-1] [INFO] [1773752861.195155854] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_amcl::AmclNode>
+[component_container_isolated-1] [INFO] [1773752861.195791095] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_amcl::AmclNode>
+[component_container_isolated-1] [INFO] [1773752861.278350947] [amcl]: 
+[component_container_isolated-1] 	amcl lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-1] [INFO] [1773752861.283859780] [amcl]: Creating
+[component_container_isolated-1] [INFO] [1773752861.287943613] [nav2_container]: Load Library: /opt/ros/humble/lib/libsmoother_server_core.so
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/amcl' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1773752861.321284262] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_smoother::SmootherServer>
+[component_container_isolated-1] [INFO] [1773752861.321357762] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_smoother::SmootherServer>
+[component_container_isolated-1] [INFO] [1773752861.394664632] [smoother_server]: 
+[component_container_isolated-1] 	smoother_server lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-1] [INFO] [1773752861.397726595] [smoother_server]: Creating smoother server
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/smoother_server' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1773752861.401315058] [nav2_container]: Load Library: /opt/ros/humble/lib/libnav2_lifecycle_manager_core.so
+[component_container_isolated-1] [INFO] [1773752861.410749224] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[component_container_isolated-1] [INFO] [1773752861.410863984] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[component_container_isolated-1] [INFO] [1773752861.491344484] [lifecycle_manager_localization]: Creating
+[component_container_isolated-1] [INFO] [1773752861.515960965] [lifecycle_manager_localization]: Creating and initializing lifecycle service clients
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/lifecycle_manager_localization' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1773752861.519649780] [nav2_container]: Load Library: /opt/ros/humble/lib/libplanner_server_core.so
+[component_container_isolated-1] [INFO] [1773752861.533928002] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_planner::PlannerServer>
+[component_container_isolated-1] [INFO] [1773752861.534082872] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_planner::PlannerServer>
+[component_container_isolated-1] [INFO] [1773752861.588719039] [lifecycle_manager_localization]: Starting managed nodes bringup...
+[component_container_isolated-1] [INFO] [1773752861.588936243] [lifecycle_manager_localization]: Configuring map_server
+[component_container_isolated-1] [INFO] [1773752861.589899909] [map_server]: Configuring
+[component_container_isolated-1] [INFO] [map_io]: Loading yaml file: /root/yahboomcar_ws/src/yahboomcar_nav/maps/yahboom_map.yaml
+[component_container_isolated-1] [DEBUG] [map_io]: resolution: 0.05
+[component_container_isolated-1] [DEBUG] [map_io]: origin[0]: -10
+[component_container_isolated-1] [DEBUG] [map_io]: origin[1]: -10
+[component_container_isolated-1] [DEBUG] [map_io]: origin[2]: 0
+[component_container_isolated-1] [DEBUG] [map_io]: free_thresh: 0.25
+[component_container_isolated-1] [DEBUG] [map_io]: occupied_thresh: 0.65
+[component_container_isolated-1] [DEBUG] [map_io]: mode: trinary
+[component_container_isolated-1] [DEBUG] [map_io]: negate: 0
+[component_container_isolated-1] [INFO] [map_io]: Loading image_file: /root/yahboomcar_ws/src/yahboomcar_nav/maps/yahboom_map.pgm
+[component_container_isolated-1] [INFO] [1773752861.674824132] [planner_server]: 
+[component_container_isolated-1] 	planner_server lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-1] [INFO] [1773752861.684893650] [planner_server]: Creating
+[component_container_isolated-1] [DEBUG] [map_io]: Read map /root/yahboomcar_ws/src/yahboomcar_nav/maps/yahboom_map.pgm: 384 X 384 map @ 0.05 m/cell
+[component_container_isolated-1] [INFO] [1773752861.722654743] [lifecycle_manager_localization]: Configuring amcl
+[component_container_isolated-1] [INFO] [1773752861.723086224] [amcl]: Configuring
+[component_container_isolated-1] [INFO] [1773752861.723279113] [amcl]: initTransforms
+[component_container_isolated-1] [INFO] [1773752861.832847057] [amcl]: initPubSub
+[component_container_isolated-1] [INFO] [1773752861.834529428] [global_costmap.global_costmap]: 
+[component_container_isolated-1] 	global_costmap lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-1] [INFO] [1773752861.836513687] [global_costmap.global_costmap]: Creating Costmap
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planner_server' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1773752861.898623094] [amcl]: Subscribed to map topic.
+[component_container_isolated-1] [INFO] [1773752861.919394465] [nav2_container]: Load Library: /opt/ros/humble/lib/libbehavior_server_core.so
+[component_container_isolated-1] [INFO] [1773752861.922000854] [lifecycle_manager_localization]: Activating map_server
+[component_container_isolated-1] [INFO] [1773752861.922568576] [map_server]: Activating
+[component_container_isolated-1] [INFO] [1773752861.923215317] [map_server]: Creating bond (map_server) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1773752861.924478520] [amcl]: Received a 384 X 384 map @ 0.050 m/pix
+[component_container_isolated-1] [INFO] [1773752862.004799206] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<behavior_server::BehaviorServer>
+[component_container_isolated-1] [INFO] [1773752862.004893354] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<behavior_server::BehaviorServer>
+[component_container_isolated-1] [INFO] [1773752862.094740761] [behavior_server]: 
+[component_container_isolated-1] 	behavior_server lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/behavior_server' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1773752862.111420631] [nav2_container]: Load Library: /opt/ros/humble/lib/libbt_navigator_core.so
+[component_container_isolated-1] [INFO] [1773752862.120842094] [lifecycle_manager_localization]: Server map_server connected with bond.
+[component_container_isolated-1] [INFO] [1773752862.120911761] [lifecycle_manager_localization]: Activating amcl
+[component_container_isolated-1] [INFO] [1773752862.121206817] [amcl]: Activating
+[component_container_isolated-1] [INFO] [1773752862.121254928] [amcl]: Creating bond (amcl) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1773752862.132117872] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_bt_navigator::BtNavigator>
+[component_container_isolated-1] [INFO] [1773752862.132311039] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_bt_navigator::BtNavigator>
+[component_container_isolated-1] [INFO] [1773752862.137997465] [amcl]: createLaserObject
+[component_container_isolated-1] [INFO] [1773752862.245374409] [lifecycle_manager_localization]: Server amcl connected with bond.
+[component_container_isolated-1] [INFO] [1773752862.245437372] [lifecycle_manager_localization]: Managed nodes are active
+[component_container_isolated-1] [INFO] [1773752862.245458520] [lifecycle_manager_localization]: Creating bond timer...
+[component_container_isolated-1] [INFO] [1773752862.255436094] [bt_navigator]: 
+[component_container_isolated-1] 	bt_navigator lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-1] [INFO] [1773752862.255542057] [bt_navigator]: Creating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/bt_navigator' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1773752862.287125613] [nav2_container]: Load Library: /opt/ros/humble/lib/libwaypoint_follower_core.so
+[component_container_isolated-1] [INFO] [1773752862.296914465] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_waypoint_follower::WaypointFollower>
+[component_container_isolated-1] [INFO] [1773752862.297086002] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_waypoint_follower::WaypointFollower>
+[component_container_isolated-1] [INFO] [1773752862.393227224] [waypoint_follower]: 
+[component_container_isolated-1] 	waypoint_follower lifecycle node launched. 
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-1] [INFO] [1773752862.397906150] [waypoint_follower]: Creating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/waypoint_follower' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1773752862.404455687] [nav2_container]: Load Library: /opt/ros/humble/lib/libvelocity_smoother_core.so
+[component_container_isolated-1] [INFO] [1773752862.417204816] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_velocity_smoother::VelocitySmoother>
+[component_container_isolated-1] [INFO] [1773752862.417297946] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_velocity_smoother::VelocitySmoother>
+[component_container_isolated-1] [INFO] [1773752862.538582039] [velocity_smoother]: 
+[component_container_isolated-1] 	velocity_smoother lifecycle node launched. 
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/velocity_smoother' in container '/nav2_container'
+[component_container_isolated-1] 	Waiting on external lifecycle transitions to activate
+[component_container_isolated-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[component_container_isolated-1] [INFO] [1773752862.544354427] [nav2_container]: Found class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[component_container_isolated-1] [INFO] [1773752862.544410094] [nav2_container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nav2_lifecycle_manager::LifecycleManager>
+[component_container_isolated-1] [INFO] [1773752862.649314316] [lifecycle_manager_navigation]: Creating
+[component_container_isolated-1] [INFO] [1773752862.660808779] [lifecycle_manager_navigation]: Creating and initializing lifecycle service clients
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/lifecycle_manager_navigation' in container '/nav2_container'
+[component_container_isolated-1] [INFO] [1773752862.789594150] [lifecycle_manager_navigation]: Starting managed nodes bringup...
+[component_container_isolated-1] [INFO] [1773752862.789735483] [lifecycle_manager_navigation]: Configuring controller_server
+[component_container_isolated-1] [INFO] [1773752862.790308075] [controller_server]: Configuring controller interface
+[component_container_isolated-1] [INFO] [1773752862.790834224] [controller_server]: getting goal checker plugins..
+[component_container_isolated-1] [INFO] [1773752862.791696168] [controller_server]: Controller frequency set to 20.0000Hz
+[component_container_isolated-1] [INFO] [1773752862.792099112] [local_costmap.local_costmap]: Configuring
+[component_container_isolated-1] [INFO] [1773752862.810808316] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[component_container_isolated-1] [INFO] [1773752862.856269409] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[component_container_isolated-1] [INFO] [1773752862.905998724] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[component_container_isolated-1] [INFO] [1773752862.906097372] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[component_container_isolated-1] [INFO] [1773752862.908072149] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[component_container_isolated-1] [INFO] [1773752862.986152705] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[component_container_isolated-1] [INFO] [1773752863.014173149] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[component_container_isolated-1] [INFO] [1773752863.015911372] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[component_container_isolated-1] [INFO] [1773752863.036163149] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[component_container_isolated-1] [INFO] [1773752863.041578427] [controller_server]: Setting transform_tolerance to 0.200000
+[component_container_isolated-1] [INFO] [1773752863.145064334] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[component_container_isolated-1] [INFO] [1773752863.149813631] [controller_server]: Critic plugin initialized
+[component_container_isolated-1] [INFO] [1773752863.150952168] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[component_container_isolated-1] [INFO] [1773752863.154846075] [controller_server]: Critic plugin initialized
+[component_container_isolated-1] [INFO] [1773752863.156380001] [controller_server]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[component_container_isolated-1] [INFO] [1773752863.158037853] [controller_server]: Critic plugin initialized
+[component_container_isolated-1] [INFO] [1773752863.159719575] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[component_container_isolated-1] [INFO] [1773752863.165310538] [controller_server]: Critic plugin initialized
+[component_container_isolated-1] [INFO] [1773752863.165828057] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[component_container_isolated-1] [INFO] [1773752863.167507075] [controller_server]: Critic plugin initialized
+[component_container_isolated-1] [INFO] [1773752863.168025686] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[component_container_isolated-1] [INFO] [1773752863.172734890] [controller_server]: Critic plugin initialized
+[component_container_isolated-1] [INFO] [1773752863.174347909] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[component_container_isolated-1] [INFO] [1773752863.178456483] [controller_server]: Critic plugin initialized
+[component_container_isolated-1] [INFO] [1773752863.178538260] [controller_server]: Controller Server has FollowPath  controllers available.
+[component_container_isolated-1] [INFO] [1773752863.240912446] [lifecycle_manager_navigation]: Configuring smoother_server
+[component_container_isolated-1] [INFO] [1773752863.242841316] [smoother_server]: Configuring smoother server
+[component_container_isolated-1] [INFO] [1773752863.292779020] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[component_container_isolated-1] [INFO] [1773752863.300406816] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[component_container_isolated-1] [INFO] [1773752863.360028945] [lifecycle_manager_navigation]: Configuring planner_server
+[component_container_isolated-1] [INFO] [1773752863.361946853] [planner_server]: Configuring
+[component_container_isolated-1] [INFO] [1773752863.362058890] [global_costmap.global_costmap]: Configuring
+[component_container_isolated-1] [INFO] [1773752863.393953445] [global_costmap.global_costmap]: Using plugin "static_layer"
+[component_container_isolated-1] [INFO] [1773752863.398754705] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[component_container_isolated-1] [INFO] [1773752863.405057186] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[component_container_isolated-1] [INFO] [1773752863.405247575] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[component_container_isolated-1] [INFO] [1773752863.421376334] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[component_container_isolated-1] [INFO] [1773752863.446498649] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[component_container_isolated-1] [INFO] [1773752863.446581297] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[component_container_isolated-1] [INFO] [1773752863.447903482] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[component_container_isolated-1] [INFO] [1773752863.509395945] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 384 X 384 at 0.050000 m/pix
+[component_container_isolated-1] [INFO] [1773752863.517275649] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[component_container_isolated-1] [INFO] [1773752863.517360964] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[component_container_isolated-1] [INFO] [1773752863.523814816] [planner_server]: Planner Server has GridBased  planners available.
+[component_container_isolated-1] [INFO] [1773752863.602942575] [lifecycle_manager_navigation]: Configuring behavior_server
+[component_container_isolated-1] [INFO] [1773752863.603137834] [behavior_server]: Configuring
+[component_container_isolated-1] [INFO] [1773752863.638506279] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors/Spin
+[component_container_isolated-1] [INFO] [1773752863.653269186] [behavior_server]: Configuring spin
+[component_container_isolated-1] [INFO] [1773752863.704620853] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors/BackUp
+[component_container_isolated-1] [INFO] [1773752863.711545779] [behavior_server]: Configuring backup
+[component_container_isolated-1] [WARN] [1773752863.734936149] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[component_container_isolated-1] [INFO] [1773752863.755241019] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[component_container_isolated-1] [INFO] [1773752863.776224445] [behavior_server]: Configuring drive_on_heading
+[component_container_isolated-1] [INFO] [1773752863.820821019] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors/AssistedTeleop
+[component_container_isolated-1] [INFO] [1773752863.847783056] [behavior_server]: Configuring assisted_teleop
+[component_container_isolated-1] [INFO] [1773752863.887401834] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[component_container_isolated-1] [INFO] [1773752863.894073538] [behavior_server]: Configuring wait
+[component_container_isolated-1] [INFO] [1773752863.935276167] [lifecycle_manager_navigation]: Configuring bt_navigator
+[component_container_isolated-1] [INFO] [1773752863.935517723] [bt_navigator]: Configuring
+^C[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[component_container_isolated-1] [INFO] [1773752864.333606612] [rclcpp]: signal_handler(signum=2)
+[component_container_isolated-1] [INFO] [1773752864.334148149] [lifecycle_manager_navigation]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_navigation)
+[INFO] [static_transform_publisher-3]: process has finished cleanly [pid 377]
+[static_transform_publisher-3] [INFO] [1773752864.336448815] [rclcpp]: signal_handler(signum=2)
+[component_container_isolated-1] [INFO] [1773752864.443444019] [lifecycle_manager_navigation]: Configuring waypoint_follower
+[component_container_isolated-1] [INFO] [1773752864.443903389] [waypoint_follower]: Configuring
+[component_container_isolated-1] [INFO] [1773752864.499977408] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[component_container_isolated-1] [INFO] [1773752864.503590852] [lifecycle_manager_navigation]: Configuring velocity_smoother
+[component_container_isolated-1] [INFO] [1773752864.504063445] [velocity_smoother]: Configuring velocity smoother
+[component_container_isolated-1] [INFO] [1773752864.522109223] [lifecycle_manager_navigation]: Activating controller_server
+[component_container_isolated-1] [INFO] [1773752864.522406093] [controller_server]: Activating
+[component_container_isolated-1] [INFO] [1773752864.522560778] [local_costmap.local_costmap]: Activating
+[component_container_isolated-1] [INFO] [1773752864.522621556] [local_costmap.local_costmap]: Checking transform
+[component_container_isolated-1] [INFO] [1773752864.522840741] [local_costmap.local_costmap]: start
+[component_container_isolated-1] [INFO] [1773752864.726543908] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1773752864.841478945] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[component_container_isolated-1] [INFO] [1773752864.841584500] [lifecycle_manager_navigation]: Activating smoother_server
+[component_container_isolated-1] [INFO] [1773752864.841979371] [smoother_server]: Activating
+[component_container_isolated-1] [INFO] [1773752864.842051908] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1773752864.961089759] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[component_container_isolated-1] [INFO] [1773752864.961178056] [lifecycle_manager_navigation]: Activating planner_server
+[component_container_isolated-1] [INFO] [1773752864.961609593] [planner_server]: Activating
+[component_container_isolated-1] [INFO] [1773752864.961811593] [global_costmap.global_costmap]: Activating
+[component_container_isolated-1] [INFO] [1773752864.961869759] [global_costmap.global_costmap]: Checking transform
+[component_container_isolated-1] [INFO] [1773752864.961899482] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[component_container_isolated-1] [INFO] [1773752865.461949852] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[component_container_isolated-1] [WARN] [1773752865.799589740] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[component_container_isolated-1] [INFO] [1773752865.961950370] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[component_container_isolated-1] [INFO] [1773752866.461949073] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[component_container_isolated-1] [INFO] [1773752866.961946906] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[component_container_isolated-1] [INFO] [1773752867.461950202] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[component_container_isolated-1] [WARN] [1773752867.866390795] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[component_container_isolated-1] [INFO] [1773752867.961951461] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[stop_car-2] Traceback (most recent call last):
+[stop_car-2]   File "/root/yahboomcar_ws/install/yahboomcar_nav/lib/yahboomcar_nav/stop_car", line 33, in <module>
+[stop_car-2]     sys.exit(load_entry_point('yahboomcar-nav==0.0.0', 'console_scripts', 'stop_car')())
+[stop_car-2]   File "/root/yahboomcar_ws/install/yahboomcar_nav/lib/python3.10/site-packages/yahboomcar_nav/stop_car.py", line 32, in main
+[stop_car-2]     rclpy.shutdown()
+[stop_car-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 126, in shutdown
+[stop_car-2]     _shutdown(context=context)
+[stop_car-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+[stop_car-2]     return context.shutdown()
+[stop_car-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+[stop_car-2]     self.__context.shutdown()
+[stop_car-2] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241
+[ERROR] [stop_car-2]: process has died [pid 375, exit code 1, cmd '/root/yahboomcar_ws/install/yahboomcar_nav/lib/yahboomcar_nav/stop_car --ros-args'].
+[component_container_isolated-1] [INFO] [1773752868.462064405] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[component_container_isolated-1] [INFO] [1773752868.961946609] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[component_container_isolated-1] [INFO] [1773752869.461950609] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[ERROR] [component_container_isolated-1]: process[component_container_isolated-1] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[INFO] [component_container_isolated-1]: sending signal 'SIGTERM' to process[component_container_isolated-1]
+[component_container_isolated-1] [INFO] [1773752869.730180886] [rclcpp]: signal_handler(signum=15)
+[component_container_isolated-1] [WARN] [1773752869.899029738] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[component_container_isolated-1] [INFO] [1773752869.961928979] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[component_container_isolated-1] [INFO] [1773752870.461951423] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[component_container_isolated-1] [INFO] [1773752870.961949367] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[component_container_isolated-1] [INFO] [1773752871.461949496] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[component_container_isolated-1] [WARN] [1773752871.899092292] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[component_container_isolated-1] [INFO] [1773752871.961951718] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[component_container_isolated-1] [INFO] [1773752872.461950144] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[component_container_isolated-1] [INFO] [1773752872.961951773] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[component_container_isolated-1] [INFO] [1773752873.461953939] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[component_container_isolated-1] [INFO] [1773752873.961954124] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[component_container_isolated-1] [WARN] [1773752873.965875865] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[component_container_isolated-1] [INFO] [1773752874.461954828] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[ERROR] [component_container_isolated-1]: process[component_container_isolated-1] failed to terminate '10.0' seconds after receiving 'SIGTERM', escalating to 'SIGKILL'
+[INFO] [component_container_isolated-1]: sending signal 'SIGKILL' to process[component_container_isolated-1]
+[ERROR] [component_container_isolated-1]: process has died [pid 373, exit code -9, cmd '/opt/ros/humble/lib/rclcpp_components/component_container_isolated --ros-args --log-level info --ros-args -r __node:=nav2_container --params-file /tmp/launch_params_mr8trhib --params-file /tmp/launch_params_9wz9_vgx -r /tf:=tf -r /tf_static:=tf_static'].
+root@raspberrypi:/# 
