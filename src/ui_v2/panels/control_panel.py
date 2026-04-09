@@ -1,11 +1,7 @@
-import os
-import sys
-
 from PySide6.QtCore import Qt, Signal
 from PySide6.QtWidgets import QDialog, QHBoxLayout, QLabel, QLineEdit, QPushButton, QVBoxLayout, QWidget
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from components.manual_pose_dialog import ManualPoseDialog
+from ..components.manual_pose_dialog import ManualPoseDialog
 
 
 class ControlPanel(QWidget):

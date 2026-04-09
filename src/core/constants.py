@@ -1,4 +1,5 @@
 # constants.py
+import os
 import yaml
 import logging
 import sys
@@ -8,7 +9,30 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # 抑制 paramiko 的底层日志（如 sftp session opened/closed），只保留 WARNING 及以上
 logging.getLogger("paramiko").setLevel(logging.WARNING)
 
-def load_config(path: str = 'config/config.yaml', strict: bool = True) -> dict:
+
+def _maybe_chdir_for_frozen():
+    """PyInstaller 打包后资源在 exe 同目录的 _internal 下，切换 cwd 以便 config/maps/data 相对路径可用。"""
+    if not getattr(sys, "frozen", False):
+        return
+    base = os.path.dirname(os.path.abspath(sys.executable))
+    internal = os.path.join(base, "_internal")
+    os.chdir(internal if os.path.isdir(internal) else base)
+
+
+def resolve_config_path() -> str:
+    """优先 config.yaml，否则使用仓库中的 config.example.yaml（便于首次运行与分发）。"""
+    for name in ("config.yaml", "config.example.yaml"):
+        p = os.path.join("config", name)
+        if os.path.isfile(p):
+            return p
+    return os.path.join("config", "config.yaml")
+
+
+_maybe_chdir_for_frozen()
+CONFIG_PATH = resolve_config_path()
+
+
+def load_config(path: str | None = None, strict: bool = True) -> dict:
     """
     从YAML文件加载配置
     
@@ -20,6 +44,8 @@ def load_config(path: str = 'config/config.yaml', strict: bool = True) -> dict:
     Returns:
         配置字典
     """
+    if path is None:
+        path = CONFIG_PATH
     try:
         with open(path, 'r', encoding='utf-8') as f:
             config = yaml.safe_load(f) or {}
@@ -59,7 +85,7 @@ def load_config(path: str = 'config/config.yaml', strict: bool = True) -> dict:
 # 加载全局配置
 # 使用宽松模式加载，避免测试脚本因缺少某些配置而失败
 # 主程序会在启动时进行必要的验证
-CONFIG = load_config(strict=False)
+CONFIG = load_config(CONFIG_PATH, strict=False)
 
 # 安全地获取配置，如果不存在则返回空字典
 ROS_CONFIG = CONFIG.get('ros', {})
@@ -77,4 +103,4 @@ def validate_config_for_main_app():
     为主程序验证配置完整性
     在主程序启动时调用此函数进行严格验证
     """
-    load_config(strict=True)
+    load_config(CONFIG_PATH, strict=True)

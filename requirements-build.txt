@@ -1,0 +1,2 @@
+# 仅用于在 Windows 上打包 exe，与运行期依赖分开
+pyinstaller>=6.3
